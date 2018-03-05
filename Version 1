@@ -1,0 +1,48 @@
+void setup() {
+  size(640, 360);
+  background(255,255,255);
+ 
+  int [] x_pos={320,320,360,320,280,320,320,320,440,440,200,200};
+  int [] y_pos={40,120,160,200,160,120,200,280,280,40,40,280};
+  int [] x_posF={320,360,320,280,320,320,320,440,440,200,200,320};
+  int [] y_posF={120,160,200,160,120,200,280,280,40,40,280,280};
+  println(x_pos[2]);
+  for (int i=0;i<12;i++){
+  // println(x_pos[i]);
+    line(x_pos[i],y_pos[i],x_posF[i],y_posF[i]);
+  }
+  fill (255,0,0);
+  ellipse (x_pos[0],y_pos[0],20,20);
+  for (int i=0;i<12;i++){
+    fill(255,0,0);
+    ellipse(x_posF[i],y_posF[i],20,20);
+   
+  }
+}
+/*
+void draw() {
+  for(int i=0;i<12;i++){
+    if ((mouseX==(x_pos[i]))&&(mouseY==(y_pos[i]))){
+      fill(0,255,222);
+      ellipse(x_pos[i],x_pos[j],20,20);
+      }
+    };
+  }
+
+  /*if (mouseX==x_pos[i]);
+  switch(mouseX){
+    case 320{switch (mouseY){
+        case 120 {
+          ellipse(320,120,10,10);
+            stroke(256);
+          }
+        case 40{
+          ellipse(320,40,10,10);
+            stroke(
+        case 200
+                  
+   
+   
+  if (mouseX==320
+ if(int x=mouseX;
+ println(x);*/
